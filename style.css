@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue';
+}
+body{height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+header{
+    width: 375px;
+   
+    display: flex;
+    flex-direction: row;
+   justify-content:space-between;
+  
+   margin-bottom: 80px;
+  margin-top: 50px;
+   align-items: center;
+   align-content: center;
+   
+   
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(23, 35, 57, 1);
+    
+}
+header button{
+  font-weight: 700;
+  font-size: 14px;
+  width: 182px;
+  height: 48px;
+  background-color: white;
+  border: 2px solid rgba(23, 35, 57, 1);
+  border-radius: 6px;
+  
+}
+main{
+    width: 375px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 300px;
+    
+}
+.textandbutton{
+    
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.rkali{
+   background-image: url(./assets/mobrkali.svg);
+   background-position:80% 10%;
+   padding-top:30px;
+   background-repeat: no-repeat;
+   
+}
+.textandbutton h1{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: rgba(23, 35, 57, 1);
+    margin-bottom: 32px;
+    
+}
+
+.bolder{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    color: rgba(23, 35, 57, 1);
+}
+.textandbutton p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(73, 86, 109, 1);
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.textandbutton button{
+    width: 256px;
+    height: 61px;
+    border-radius: 6px;
+    background-color:rgba(23, 35, 57, 1) ;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.information{
+    height: 350px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.companies h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(23, 35, 57, 1);
+    text-align: center;
+}
+
+.companies p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(73, 86, 109, 1);
+    text-align: center;
+}
+
+section{
+    width: 375px;
+   height: 100vhpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(23, 35, 57, 1);
+}
+
+.sectiontext{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.sectiontext h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.sectiontext p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(243, 237, 231, 1);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.boy{
+    position: relative;
+    bottom: 30%;
+   
+}
+.tabletmob{
+    display: none;
+}
