@@ -9,22 +9,21 @@
 }
 body{height: 100vh;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
    
 }
 header{
     width: 375px;
-   
     display: flex;
     flex-direction: row;
-   justify-content:space-between;
-  
-   margin-bottom: 80px;
-  margin-top: 50px;
-   align-items: center;
-   align-content: center;
+    justify-content:space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
    
    
 }
@@ -45,19 +44,23 @@ header button{
   border-radius: 6px;
   
 }
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgba(23, 35, 57, 1);
+    transition: 1s;
+    color: white;
+}
 main{
     width: 375px;
-    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     
 }
 .textandbutton{
-    
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -101,6 +104,13 @@ main{
     font-size: 18px;
     margin-bottom: 50px;
 }
+.textandbutton button:hover{
+    cursor: pointer;
+    background:linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    transition: 1s;
+    color: white;
+    border: none;
+}
 .information{
     height: 350px;
     margin-top: 60px;
@@ -108,6 +118,7 @@ main{
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
+  
     
 }
 .companies h1{
@@ -127,21 +138,38 @@ main{
 }
 
 section{
+
+
     width: 375px;
-   height: 100vhpx;
+    height: 100vh;
+    margin-top: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    border-radius: 15px;
+    position: relative;
     background-color: rgba(23, 35, 57, 1);
+    padding-bottom: 80px;
+    
+}
+.boy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    margin-top: -170px;
+
+    
 }
 
 .sectiontext{display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     align-content: center;
+    gap: 40px;
+    margin-top: 20px;
     
 
 }
@@ -149,7 +177,8 @@ section{
 .sectiontext h1{
     font-weight: 700;
     font-size: 40px;
-    color: white;
+    color: rgba(250, 248, 246, 1);
+    text-align: center;
 }
 .sectiontext p{
     font-weight: 400;
@@ -157,13 +186,53 @@ section{
     color: rgba(243, 237, 231, 1);
     padding-left: 16px;
     padding-right: 16px;
+    text-align: center;
 }
+    .sectiontext h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(250, 248, 246, 1);
+    text-align: center;
+    }
+    .sectiontext h3{
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(250, 248, 246, 1);
+        text-align: center;
+        }
 
-.boy{
-    position: relative;
-    bottom: 30%;
-   
-}
+    footer{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(243, 237, 231, 1);
+        gap: 60px;   
+        padding-top: 30px;
+        padding-bottom: 40px;
+       
+    }
+
+    .footerLogo{
+        font-weight: 700;
+        font-size: 32px;
+        color: rgba(23, 35, 57, 1);
+        
+    }
+
+    .copyright{
+        font-weight: 400;
+        font-size: 15px;
+        color: rgba(23, 35, 57, 1);
+    }
+    .socmedia{display: flex;
+        gap: 20px;
+    }
+    footer img:hover{
+        cursor: pointer;
+        filter:brightness(2);
+    }
+
 .tabletmob{
     display: none;
 }

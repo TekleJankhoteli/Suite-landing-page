@@ -1,0 +1,257 @@
+@media screen and (min-width:790px){
+    header{
+        width: 790px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    main{
+        width: 790px;
+        display: flex;
+       margin-bottom: 0;
+       
+       
+       
+    }
+    .textandmob{
+        display: flex;
+        position: relative;
+        
+    }
+    .textandbutton{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items:flex-start;
+        justify-content: center;
+        padding: 0;
+        left: 20px;
+        top: 40px;
+        z-index: 2;
+        
+       
+    }
+
+    .rkali{
+        background-image: url(./assets/tabletrkali.svg);
+        background-position:80% 10%;
+        padding-top:30px;
+        background-repeat: no-repeat;
+        
+     }
+
+    .tabletmob{
+        display: flex;
+      justify-content: center;
+      position: relative;
+      right: 40px;
+     
+   }
+
+   .textandbutton h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    text-align: center;
+
+   
+    
+}
+.textandbutton p{
+    text-align: start;
+   
+}
+
+.bolder{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+   
+}
+   .tabletmob img {
+    position: relative;
+    z-index: 1;
+  }
+  
+
+    .information{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        height: auto;
+        gap:150px;
+        margin: 0;
+        margin-top: 40px;
+    
+    }
+
+    section{
+
+
+        width: 689px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        background-color: rgba(23, 35, 57, 1);
+        padding-bottom: 50px;
+        z-index: 2;
+        top: 250px;
+        
+    }
+
+    footer{
+        width: 790px;
+        height: 640px;
+       display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(243, 237, 231, 1);
+       gap: 100px;   
+       padding-top: 300px;
+       padding-bottom: 40px;
+       
+    }
+
+    
+    
+    .mobphone{
+        display: none;
+    }
+    
+}
+
+@media screen and (width >= 1500px) {
+    header{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    main{
+
+        display: flex;
+        flex-direction: row;
+        width: 1110px;
+        height: 600px;
+        position: relative;
+       
+       
+    }
+
+    .textandbutton h1{
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 78px;
+        text-align: center;
+    
+       
+        
+    }
+    .textandbutton p{
+       text-align: start;
+       padding-right: 20%;
+       
+    }
+    
+    .bolder{
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 78px;
+       
+    }
+
+    .rkali{
+        background-image: url(./assets/desktoprkali.svg);
+        background-position:80% 10%;
+        padding-top:30px;
+        background-repeat: no-repeat;
+        
+     }
+    .tabletmob img{
+        width: 350px;
+        height: 600px;
+        right: 20%;
+    }
+
+    .information{display: flex;
+    flex-direction: column;}
+
+
+    .textandmob{
+        display: flex;
+       
+        
+    }
+    .textandbutton{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+       
+    }
+
+    section{
+
+
+        width: 1109px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 15px;
+        background-color: rgba(23, 35, 57, 1);
+        
+    }
+    footer{
+        width: 100%;
+        height: 640px;
+       display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+       
+      
+       
+    }
+
+    .boy{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding-left: 40px;
+
+    }
+
+    .sectiontext{
+        display: flex;
+        flex-direction: column;
+       
+       align-items: flex-start;
+    }
+
+    .sectiontext h1{
+        font-weight: 700;
+        font-size: 40px;
+        color: rgba(250, 248, 246, 1);
+        text-align: center;
+    }
+    .sectiontext p{
+        font-weight: 400;
+        font-size: 18px;
+       
+        padding: 0;
+        text-align:start;
+    }
+   
+    footer{
+        display: flex;
+       justify-content: space-between;
+       padding-left: 10%;
+       padding-right: 10%;
+    }
+
+
+
+}
